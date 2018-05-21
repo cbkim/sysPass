@@ -3410,7 +3410,7 @@ msgid ""
 "La clave maestra es utilizada para encriptar las claves de las cuentas de "
 "sysPass para mantenerlas seguras."
 msgstr ""
-"The Master Password is used to encryt sysPass accounts passwords and keep "
+"The Master Password is used to encryt valentine accounts passwords and keep "
 "them safe."
 
 #: ../../../../inc/themes/material-blue/views/config/encryption.inc:140

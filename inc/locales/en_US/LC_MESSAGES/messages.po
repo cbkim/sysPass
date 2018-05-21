@@ -1360,7 +1360,7 @@ msgid ""
 "Se ha generado una nueva clave para el acceso a sysPass y se solicitará en "
 "el siguiente inicio."
 msgstr ""
-"A new sysPass master password has been generated, so the next time you log "
+"A new valentine master password has been generated, so the next time you log "
 "into the application it will be requested."
 
 #: ../../../../inc/SP/Controller/ConfigActionController.class.php:656
@@ -2500,7 +2500,7 @@ msgstr "Download new version"
 
 #: ../../../../inc/SP/Controller/MainController.class.php:504
 msgid "Avisos de sysPass"
-msgstr "sysPass Notices"
+msgstr "valentine Notices"
 
 #: ../../../../inc/SP/Controller/MainController.class.php:607
 #: ../../../../inc/SP/Mgmt/PublicLinks/PublicLink.class.php:75
@@ -2815,7 +2815,7 @@ msgstr "Please, check the connection parameters"
 
 #: ../../../../inc/SP/Core/Installer.class.php:238
 msgid "No es posible comprobar el usuario de sysPass"
-msgstr "Unable to check the sysPass user"
+msgstr "Unable to check the valentine user"
 
 #: ../../../../inc/SP/Core/Installer.class.php:239
 msgid "Compruebe los permisos del usuario de conexión a la BD"
@@ -4747,7 +4747,7 @@ msgid ""
 "XML para posteriormente poder ser importados en otras instancias de sysPass."
 msgstr ""
 "The accounts export allows you to save the accounts and their data in XML "
-"format to be imported in another sysPass instance."
+"format to be imported in another valentine instance."
 
 #: ../../../../inc/themes/material-blue/views/config/backup.inc:182
 msgid "Los elementos exportados son cuentas, clientes, categorías y etiquetas."
@@ -4837,7 +4837,7 @@ msgid ""
 "La clave maestra es utilizada para encriptar las claves de las cuentas de "
 "sysPass para mantenerlas seguras."
 msgstr ""
-"The Master Password is used to encrypt sysPass accounts passwords and keep "
+"The Master Password is used to encrypt valentine accounts passwords and keep "
 "them safe."
 
 #: ../../../../inc/themes/material-blue/views/config/encryption.inc:140
@@ -5200,7 +5200,8 @@ msgstr "Application Information"
 #: ../../../../inc/themes/material-blue/views/config/info.inc:11
 #: ../../../../inc/themes/material-blue/views/config/info.inc:14
 msgid "Versión sysPass"
-msgstr "sysPass version"
+msgstr "valentine version"
+
 
 #: ../../../../inc/themes/material-blue/views/config/info.inc:21
 #: ../../../../inc/themes/material-blue/views/config/info.inc:24
@@ -5851,15 +5852,15 @@ msgstr "Installation %s"
 
 #: ../../../../inc/themes/material-blue/views/main/install.inc:19
 msgid "Admin de sysPass"
-msgstr "sysPass Admin"
+msgstr "valentine Admin"
 
 #: ../../../../inc/themes/material-blue/views/main/install.inc:27
 msgid "Usuario administrador de sysPass"
-msgstr "sysPass admin user"
+msgstr "valentine admin user"
 
 #: ../../../../inc/themes/material-blue/views/main/install.inc:35
 msgid "Login del usuario administrador de sysPass"
-msgstr "sysPass administrator's login"
+msgstr "valentine administrator's login"
 
 #: ../../../../inc/themes/material-blue/views/main/install.inc:67
 msgid "Configurar BBDD"

@@ -358,8 +358,8 @@ class Util
     public static function getAppInfo($index = null)
     {
         $appinfo = [
-            'appname' => 'sysPass',
-            'appdesc' => 'Systems Password Manager',
+            'appname' => 'valentine',
+            'appdesc' => 'CSquared Password Manager',
             'appalias' => 'SPM',
             'appwebsite' => 'https://www.syspass.org',
             'appblog' => 'https://www.cygnux.org',
