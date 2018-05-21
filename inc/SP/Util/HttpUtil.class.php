@@ -68,14 +68,16 @@ class HttpUtil
         // Check (deprecated) de facto standard
         if (null !== $xForward) {
             return strtolower($xForward['proto'] . '://' . $xForward['host']);
-        }
-
-        // We got called directly
+	}
+        
+	
+	// We got called directly
         if (Checks::httpsEnabled()) {
-            return 'https://' . $_SERVER['HTTP_HOST'];
+            return 'https://' . $_SERVER['HTTP_HOST'].'.csquarednet.com';
         }
 
-        return 'http://' . $_SERVER['HTTP_HOST'];
+        return 'http://' . $_SERVER['HTTP_HOST'].'.csquarednet.com';
+
     }
 
     /**
