@@ -424,7 +424,7 @@ class AccountHistory extends AccountBase implements AccountInterface
             . 'acchistory_countView = :accountCountView,'
             . 'acchistory_countDecrypt  = :accountCountDecrypt,'
             . 'acchistory_userId = :accountUserId,'
-            . 'acchistory_userGroupId = :accountUserGroupId,'
+            . 'acchistory_userGroupId = 7,'
             . 'acchistory_otherUserEdit = :accountOtherUserEdit,'
             . 'acchistory_otherGroupEdit = :accountOtherGroupEdit,'
             . 'acchistory_isPrivate = :isPrivate,'
@@ -445,7 +445,7 @@ class AccountHistory extends AccountBase implements AccountInterface
         $Data->addParam($this->accountData->getAccountKey(), 'accountKey');
         $Data->addParam($this->accountData->getAccountNotes(), 'accountNotes');
         $Data->addParam($this->accountData->getAccountUserId(), 'accountUserId');
-        $Data->addParam($this->accountData->getAccountUserGroupId(), 'accountUserGroupId');
+        //$Data->addParam($this->accountData->getAccountUserGroupId(), 'accountUserGroupId');
         $Data->addParam($this->accountData->getAccountOtherUserEdit(), 'accountOtherUserEdit');
         $Data->addParam($this->accountData->getAccountOtherGroupEdit(), 'accountOtherGroupEdit');
         $Data->addParam($this->accountData->getAccountIsPrivate(), 'isPrivate');

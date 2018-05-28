@@ -119,8 +119,7 @@ class AccountForm extends FormBase implements FormInterface
         if ($accountMainGroupId !== 0
             && (Session::getUserData()->isUserIsAdminApp() || Session::getUserData()->isUserIsAdminAcc())
         ) {
-		//$this->AccountData->setAccountUserGroupId($accountMainGroupId);
-		$this->AccountData->setAccountUserGroupId(3);
+		$this->AccountData->setAccountUserGroupId($accountMainGroupId);
         }
     }
 
